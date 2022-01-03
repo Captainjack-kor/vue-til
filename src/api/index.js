@@ -1,5 +1,6 @@
 import axios from 'axios';
 
+// 공통 설정을 미리 정의한다.
 const instance = axios.create({
   baseURL: process.env.VUE_APP_API_URL,
 });
