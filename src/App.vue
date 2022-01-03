@@ -9,7 +9,8 @@
 import HelloWorld from './components/HelloWorld.vue';
 import AppHeader from './components/common/AppHeader.vue';
 
-var a = 'hi';
+// var a='hi';
+
 
 export default {
 	name: 'app',
@@ -18,7 +19,7 @@ export default {
 		AppHeader,
 	},
 	created() {
-		console.log('hi');
+		console.log("hi");
 	},
 };
 </script>

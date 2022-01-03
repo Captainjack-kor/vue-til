@@ -36,6 +36,7 @@
       </li>
     </ul>
     <h3>Essential Links</h3>
+    <app-header/>
     <ul>
       <li>
         <a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a>
@@ -95,12 +96,17 @@
 </template>
 
 <script>
+import AppHeader from './common/AppHeader.vue'
 export default {
+  components: { AppHeader },
+  age: 12,
+  test: "124",
+  name_test: 'test123',
   name: 'HelloWorld',
   props: {
     msg: String,
   },
-};
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
